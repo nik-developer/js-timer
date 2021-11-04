@@ -1,0 +1,36 @@
+.timer {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 120px;
+}
+
+.field:not(:last-child) {
+    margin-right: 15px;
+}
+
+.label {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.value {
+    text-align: center;
+    
+    font-size: 70px;
+    color: white;
+
+    width: 120px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
